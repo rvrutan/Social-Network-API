@@ -107,3 +107,9 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+### Questions
+
+Contact me for any further questions;
+- Github: [github.com/rvrutan](https://github.com/rvrutan)
+- Email: [rutanroni@gmail.com](mailtorutanroni@gmail.com)
