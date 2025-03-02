@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
-import User from "../models/User";
-import Thought from "../models/Thought";
+import User from "../models/User.js";
+import Thought from "../models/Thought.js";
 
 // Get all users
 export const getUsers = async (_req: Request, res: Response) => {
@@ -19,9 +19,9 @@ export const getUserById = async (req: Request, res: Response) => {
       "thoughts friends"
     );
     if (!user) return res.status(404).json({ message: "User not found" });
-    res.json(user);
+    return res.json(user);
   } catch (error) {
-    res.status(500).json({ message: "Error fetching user", error });
+    return res.status(500).json({ message: "Error fetching user", error });
   }
 };
 
@@ -45,9 +45,9 @@ export const updateUser = async (req: Request, res: Response) => {
     );
     if (!updatedUser)
       return res.status(404).json({ message: "User not found" });
-    res.json(updatedUser);
+    return res.json(updatedUser);
   } catch (error) {
-    res.status(500).json({ message: "Error updating user", error });
+    return res.status(500).json({ message: "Error updating user", error });
   }
 };
 
