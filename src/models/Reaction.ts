@@ -1,22 +1,15 @@
-import { Schema, Document, Types } from 'mongoose';
+import { Schema, Types } from 'mongoose';
 
-
-interface IReaction extends Document {
-    reactionId: Schema.Types.ObjectId;
-    reactionBody: string;
-    username: string;
-    createdAt: Date;
-  }  
-
-const reactionSchema = new Schema<IReaction>({
+// Reaction subdocument schema
+const reactionSchema = new Schema({
   reactionId: {
-    type: Schema.Types.ObjectId,
-    default: () => new Types.ObjectId(),
+    type: Types.ObjectId,
+    default: () => new Types.ObjectId(), 
   },
   reactionBody: {
     type: String,
     required: true,
-    maxLength: 280,
+    maxlength: 280,
   },
   username: {
     type: String,
@@ -25,7 +18,11 @@ const reactionSchema = new Schema<IReaction>({
   createdAt: {
     type: Date,
     default: Date.now,
+    get: (timestamp: Date) => timestamp.toLocaleString(), 
   },
+}, {
+  toJSON: { getters: true }, 
+  id: false,
 });
 
-export default reactionSchema;
+export { reactionSchema };
