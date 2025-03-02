@@ -1,5 +1,21 @@
 # 17 NoSQL: Social Network API
 
+**Table of Contents**
+
+* [Description](#description)
+* [Features](#features)
+* [Installation](#installation)
+* [Usage](#usage)
+    * [User Routes](#user-routes)
+    * [Thought Routes](#thought-routes)
+* [Walkthrough Video](#walkthrough-video)
+* [Screenshots](#screenshots)
+* [Bonus Feature](#bonus-feature)
+* [Contributing](#contributing)
+* [License](#license)
+
+## Description
+
 This project implements a RESTful API for a social network platform using Express.js, MongoDB, and Mongoose. The API allows users to create and manage user profiles, post thoughts, react to thoughts, and manage friends lists.
 
 ## Features
