@@ -1,4 +1,4 @@
-# 17 NoSQL: Social Network API
+# Social Network API
 
 **Table of Contents**
 
