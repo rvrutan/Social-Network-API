@@ -90,9 +90,15 @@ The API endpoints are documented below. You can use tools like Insomnia or Postm
 
 ## Walkthrough Video
 
-[Link to your walkthrough video]
+[Link to walkthrough video](https://drive.google.com/file/d/1iqfSA8i2KxmEKvVHuZY3NwOgL1L08iRw/view)
 
 ## Screenshots
+
+![users-route](https://github.com/user-attachments/assets/5cae0ecd-e7c9-4f0b-b2f6-667c021fd5fb)
+![update-user-route](https://github.com/user-attachments/assets/3d80fe64-04d7-4da6-affc-14024317b3bc)
+![thoughts-route](https://github.com/user-attachments/assets/2e69bb59-5c10-4f18-af5e-f214ab9bade6)
+![create-thought-route](https://github.com/user-attachments/assets/6ef6aea0-04e8-4c20-8595-630340a019da)
+![add-friend-route](https://github.com/user-attachments/assets/635c45a1-269e-4de5-afd2-1de5b0369421)
 
 
 
