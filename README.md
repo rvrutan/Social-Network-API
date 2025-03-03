@@ -94,7 +94,7 @@ The API endpoints are documented below. You can use tools like Insomnia or Postm
 
 ## Screenshots
 
-[Include screenshots of the API being used in Insomnia or Postman]
+
 
 ## Bonus Feature
 
